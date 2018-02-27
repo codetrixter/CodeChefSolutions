@@ -70,10 +70,8 @@ int main()
         {
             K -= (large-small);
             small += (large-small);
-            if(K % 2 == 0)
-                cout << 0 << endl;
-            else
-                cout << 1 << endl;
+            cout << 0 << endl;
+           
         }
 
     }
